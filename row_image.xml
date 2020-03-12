@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_marginTop="5dp"
+    android:layout_height="wrap_content">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/aaaaa"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/image"
+                android:layout_centerHorizontal="true"
+                android:layout_height="180dp" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/aaaaa"
+        android:layout_height="1dp">
+    </LinearLayout>
+
+</RelativeLayout>

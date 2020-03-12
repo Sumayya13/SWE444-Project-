@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".Client.Poll.VoteResultActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:id="@+id/image1"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logo"
+            android:layout_gravity="right"
+            android:layout_height="150dp"/>
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/pimage1"
+            android:layout_gravity="left"
+            android:layout_width="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="150dp"
+            CircleProgressView:cpv_autoTextSize="true"
+            CircleProgressView:cpv_barColor="@color/primary"
+            CircleProgressView:cpv_barWidth="15dp"
+            CircleProgressView:cpv_innerContourSize="2dp"
+            CircleProgressView:cpv_maxValue="100"
+
+            CircleProgressView:cpv_outerContourSize="0dp"
+            CircleProgressView:cpv_rimColor="@color/primary_light"
+            CircleProgressView:cpv_rimWidth="15dp"
+            CircleProgressView:cpv_showUnit="true"
+            CircleProgressView:cpv_spinColor="@color/primary"
+            CircleProgressView:cpv_textColor="@color/primary_dark"
+            CircleProgressView:cpv_textScale="1"
+            CircleProgressView:cpv_unit="%"
+            CircleProgressView:cpv_spinBarLength="2"
+            CircleProgressView:cpv_unitColor="@color/primary_light"
+            CircleProgressView:cpv_unitPosition="right_top"
+            CircleProgressView:cpv_unitScale="1"
+            CircleProgressView:cpv_value="40" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:id="@+id/image2"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"
+            android:layout_height="150dp"/>
+
+        <at.grabner.circleprogress.CircleProgressView
+            android:id="@+id/pimage2"
+            android:layout_width="150dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="150dp"
+            CircleProgressView:cpv_autoTextSize="true"
+            CircleProgressView:cpv_barColor="@color/primary"
+            CircleProgressView:cpv_barWidth="15dp"
+            CircleProgressView:cpv_innerContourSize="2dp"
+            CircleProgressView:cpv_maxValue="100"
+            CircleProgressView:cpv_outerContourSize="0dp"
+            CircleProgressView:cpv_rimColor="@color/primary_light"
+            CircleProgressView:cpv_rimWidth="15dp"
+            CircleProgressView:cpv_seekMode="true"
+            CircleProgressView:cpv_showUnit="true"
+            CircleProgressView:cpv_spinColor="@color/primary"
+            CircleProgressView:cpv_textColor="@color/primary_dark"
+            CircleProgressView:cpv_textScale="1"
+            CircleProgressView:cpv_unit="%"
+            CircleProgressView:cpv_spinBarLength="2"
+            CircleProgressView:cpv_unitColor="@color/primary_light"
+            CircleProgressView:cpv_unitPosition="right_top"
+            CircleProgressView:cpv_unitScale="1"
+            CircleProgressView:cpv_value="40" />
+
+
+
+    </RelativeLayout>
+</LinearLayout>
